@@ -1,0 +1,121 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 350px;
+    height: 430px;
+    /* background-color: cadetblue; */
+    margin-bottom: 5px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 5px;
+}
+.portada{
+    width: 332px;
+    height: 170px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    background: url(clothing.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.title h2{
+    margin: 0;   
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 330px;
+    height: 40px;
+    border: solid 1px black;
+    /* background-color: #7E5353; */
+    margin: auto;
+    margin-top: 5px;
+    /* alinacion */
+    align-items: center;
+}
+.conteiner p{
+    margin: 0;
+}
+.contenido{
+    border-radius: 10px;
+    width: 330px;
+    height: 140px;
+    /* background-color: #6C4579; */
+    margin: auto;
+    margin-top: 5px;
+    overflow: scroll;
+}
+.button a{
+    border: 1px solid #7E5353;
+    padding: 10px;
+    /* background-color: blue; */
+   /*  color: #ffff; */
+   color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.button{
+    width: auto;
+    height: 30px;
+    /* background-color: green; */
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+
+}
+/* adidas card */
+
+.AdidasCard{
+    border-radius: 10px;
+    width: 350px;
+    margin-bottom: 5px;
+    margin: auto;
+    margin-top: 5px;
+}
+.AdidasPrecio{
+    margin-left: 5px;
+    padding: 3px 3px 3px 3px;
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    background-color: whitesmoke;
+}
+
+.AdidasPortada{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(remera-love-unites-trifolio-unisex.jpg);
+    height: 383px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-start;
+}
+.AdidasTitulo h2{
+    margin: 5px 2px;
+}
+.AdidasTitulo{
+    font-size: small;
+}
+.AdidasContenido p{
+    margin: 5px 2px;
+}
+.AdidasContenido{
+    color: grey;
+}
+.AdidasDetalle{
+    margin: 5px 2px;
+}
